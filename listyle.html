@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List style</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+        ul li{
+            color: red;
+            background: pink;
+            margin-top: 30px;
+            font-family: monospace;
+            font-size: 14pt;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+
+        }
+        ul li:hover{
+            cursor: pointer;
+            background-color: gray;
+            color: red;
+
+        }
+            
+      ul li a{
+            color:green
+        }
+
+        @media screen and (max-width: 700px) {
+            body{
+                background-color: green;
+            }
+
+            ul li{
+                color:blue !important
+            }
+            ul{
+                display: none;
+            }
+            
+        }
+
+        @media screen and (min-width: 700px)  and (max-width: 1100px){
+            body{
+                background-color: blue;
+                
+            }
+        }
+
+        @media screen and (min-width: 1100px) {
+            body{
+                background-color: black;
+                
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="#">hhhh</a>
+    <ul>
+
+        <a href="#">kkkk</a>
+        <li>Item 1</li>
+        <li>Item 2 <a href="#">Click</a></li>
+    </ul>
+</body>
+</html>
