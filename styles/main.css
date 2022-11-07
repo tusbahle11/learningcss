@@ -1,0 +1,12 @@
+*{
+    font-size: 18px;
+    /* kanina waa style guud  */
+    font-family: consolas;
+    color: red;
+}
+
+/* kani waxaa paragaraaf aan ugu talagay midab blue  */
+p{
+    background-color: blue;
+    padding: 100px;
+}
